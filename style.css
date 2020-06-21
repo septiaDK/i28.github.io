@@ -1,0 +1,238 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+body {
+    font-family: "Lucida Grande";
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(156, 136, 255);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.jumbroton {
+    padding: 180px 0 100px 0;
+    background-image: url(bg-3.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.jumbroton h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.jumbroton p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.welcome {
+    text-align: center;
+    width: 250px;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 600px;
+    }
+    75% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.btn {
+    padding: 12px 24px;
+    opacity: 0.8;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.konten {
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.clear {
+    clear: left;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.isi {
+    float: left;
+    width: 25%;
+}
+
+.konten-icon {
+    position: relative;
+}
+
+.konten-icon p {
+    margin-bottom: 20px;
+    width: 100%;
+    color: #b3aeb5;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.person {
+    width: 200px;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+}
+
+.contact-form {
+    padding-top: 100px;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+footer {
+    padding: 5px;
+    background-color: rgb(156, 136, 255);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 20px 0;
+    display: none;
+}
